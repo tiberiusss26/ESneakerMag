@@ -4,6 +4,7 @@ namespace proiect.Repositories.GenericRepository
 	public interface IGenericRepository<TEntity> where TEntity: class
 	{
 		Task<List<TEntity>> GetAll();
+
         Task CreateAsync(TEntity entity);
         Task CreateRangeAsync(IEnumerable<TEntity> entities);
 
@@ -12,9 +13,6 @@ namespace proiect.Repositories.GenericRepository
 
         void Delete(TEntity entity);
         void DeleteRange(IEnumerable<TEntity> entities);
-
-        Task<TEntity> FindByIdAsync(object id);
-        TEntity FindById(object id);
 
         Task<bool> SaveAsync();
     }

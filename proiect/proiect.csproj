@@ -19,12 +19,12 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <!-- Don't publish the SPA source files, but do show them in the project files list -->
     <Content Remove="$(SpaRoot)**" />
-    <None Remove="$(SpaRoot)**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
     <None Remove="Models\" />
     <None Remove="Data\" />
@@ -36,6 +36,10 @@
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
     <None Remove="Models\Enums\" />
     <None Remove="Repositories\GenericRepository\" />
+    <None Remove="Helpers\" />
+    <None Remove="Helpers\Extensions\" />
+    <None Remove="Helpers\Seeders\" />
+    <None Remove="AutoMapper" />
   </ItemGroup>
 
   <ItemGroup>
@@ -45,6 +49,9 @@
     <Folder Include="Models\Base\" />
     <Folder Include="Models\Enums\" />
     <Folder Include="Repositories\GenericRepository\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Helpers\Extensions\" />
+    <Folder Include="Helpers\Seeders\" />
   </ItemGroup>
     <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->

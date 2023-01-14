@@ -85,6 +85,12 @@ namespace proiect.Migrations
                     b.Property<Guid>("ShoeId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<double>("FinalPrice")
+                        .HasColumnType("float");
+
+                    b.Property<DateTime>("PurchaseDate")
+                        .HasColumnType("datetime2");
+
                     b.HasKey("OrderId", "ShoeId");
 
                     b.HasIndex("ShoeId");
