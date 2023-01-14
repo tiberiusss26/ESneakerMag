@@ -43,7 +43,6 @@ namespace proiect.Data
 				.HasForeignKey<User>(u => u.CardMemberId);
 
 
-
 			base.OnModelCreating(modelBuilder);
 		}
 	}
