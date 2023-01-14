@@ -1,12 +1,22 @@
 ﻿<Properties StartupConfiguration="{2D12935A-6D93-427F-B76B-FBBEA02B1C87}|Default" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="proiect/Data/DataBaseContext.cs">
+    <Files>
+      <File FileName="proiect/Models/User.cs" Line="22" Column="45" />
+      <File FileName="proiect/Models/Order.cs" Line="11" Column="22" />
+      <File FileName="proiect/Models/Shoe.cs" Line="10" Column="35" />
+      <File FileName="proiect/Models/Purchase.cs" Line="14" Column="1" />
+      <File FileName="proiect/Models/CardMember.cs" Line="12" Column="21" />
+      <File FileName="proiect/Data/DataBaseContext.cs" Line="43" Column="47" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="proiect" expanded="True">
             <Node name="proiect" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Enums" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -15,7 +25,9 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.proiect PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
 </Properties>
