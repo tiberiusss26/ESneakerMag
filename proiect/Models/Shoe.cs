@@ -1,7 +1,9 @@
 ﻿using System;
+using proiect.Models.Base;
+
 namespace proiect.Models
 {
-	public class Shoe
+	public class Shoe: BaseEntity
 	{
 		public string ShoeName { get; set; }
 		public string Brand { get; set; }

@@ -45,6 +45,6 @@ namespace proiect.Data
 
 			base.OnModelCreating(modelBuilder);
 		}
-	}
+	} 
 }
 
