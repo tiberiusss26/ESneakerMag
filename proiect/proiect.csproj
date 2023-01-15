@@ -20,6 +20,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -40,6 +41,11 @@
     <None Remove="Helpers\Extensions\" />
     <None Remove="Helpers\Seeders\" />
     <None Remove="AutoMapper" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="Helpers\Mapper\" />
+    <None Remove="Models\DTOs\" />
+    <None Remove="Models\DTOs\UserDTO\" />
+    <None Remove="Repositories\UserRepository\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -52,6 +58,10 @@
     <Folder Include="Helpers\" />
     <Folder Include="Helpers\Extensions\" />
     <Folder Include="Helpers\Seeders\" />
+    <Folder Include="Helpers\Mapper\" />
+    <Folder Include="Models\DTOs\" />
+    <Folder Include="Models\DTOs\UserDTO\" />
+    <Folder Include="Repositories\UserRepository\" />
   </ItemGroup>
     <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->

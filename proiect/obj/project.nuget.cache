@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BSw4B+vXANHf8qOohaUKlxzaQyxLDgG+GdV0nCuNJkB/+BqQ7PghBP9Sgz6d/xrvhVrQaYC5oKhFDXq8eMi0FA==",
+  "dgSpecHash": "saP2iWFLIyde/NxLmP7iRB7iGVyqbmhVqNe4iftwnD3wjtPolXHbs8BzdVU76iS5ChSVZ7LXLWN7En/GZr33Ow==",
   "success": true,
   "projectFilePath": "/Users/tiberiutitiriga/Desktop/proiectDotnet/proiect/proiect/proiect.csproj",
   "expectedPackageFiles": [
     "/Users/tiberiutitiriga/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/tiberiutitiriga/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/Users/tiberiutitiriga/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/tiberiutitiriga/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
     "/Users/tiberiutitiriga/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
