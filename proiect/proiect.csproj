@@ -46,6 +46,9 @@
     <None Remove="Models\DTOs\" />
     <None Remove="Models\DTOs\UserDTO\" />
     <None Remove="Repositories\UserRepository\" />
+    <None Remove="Services\" />
+    <None Remove="Services\UserService\" />
+    <None Remove="Helpers\JwtUtils\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -62,6 +65,9 @@
     <Folder Include="Models\DTOs\" />
     <Folder Include="Models\DTOs\UserDTO\" />
     <Folder Include="Repositories\UserRepository\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\UserService\" />
+    <Folder Include="Helpers\JwtUtils\" />
   </ItemGroup>
     <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->
