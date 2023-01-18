@@ -1,13 +1,14 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{2D12935A-6D93-427F-B76B-FBBEA02B1C87}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.proiect PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+﻿<Properties StartupConfiguration="{2D12935A-6D93-427F-B76B-FBBEA02B1C87}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.proiect PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="proiect/ClientApp/src/app/app.module.ts">
     <Files>
-      <File FileName="proiect/ClientApp/tsconfig.json" Line="1" Column="1" />
+      <File FileName="proiect/ClientApp/tsconfig.json" />
       <File FileName="proiect/ClientApp/src/app/app.module.ts" Line="36" Column="29" />
     </Files>
     <Pads>
@@ -15,18 +16,12 @@
         <State name="__root__">
           <Node name="proiect" expanded="True">
             <Node name="proiect" expanded="True">
-              <Node name="ClientApp" expanded="True">
-                <Node name="src" expanded="True">
-                  <Node name="app" expanded="True">
-                    <Node name="app.module.ts" selected="True" />
-                  </Node>
-                </Node>
-              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
 </Properties>
