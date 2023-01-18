@@ -30,6 +30,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
@@ -98,6 +99,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -132,5 +134,8 @@
       }
     }
   },
-  "defaultProject": "proiect"
+  "defaultProject": "proiect",
+  "cli": {
+    "analytics": "141ff534-3ba4-4207-9411-23ad8e9ad0a9"
+  }
 }
