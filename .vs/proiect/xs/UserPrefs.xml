@@ -1,17 +1,13 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{2D12935A-6D93-427F-B76B-FBBEA02B1C87}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.proiect PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/tiberiutitiriga/Desktop/proiectDotnet/proiect/proiect/ClientApp/src/app/app.module.ts" relfile="proiect/ClientApp/src/app/app.module.ts" line="34" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="proiect/ClientApp/.gitignore">
-    <Files>
-      <File FileName="proiect/ClientApp/src/environments/environment.prod.ts" />
-      <File FileName="proiect/ClientApp/src/environments/environment.ts" />
-      <File FileName="proiect/ClientApp/src/index.html" />
-      <File FileName="proiect/ClientApp/src/app/app.module.ts" />
-      <File FileName="proiect/ClientApp/.gitignore" Line="13" Column="7" />
-    </Files>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -22,8 +18,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.proiect PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
