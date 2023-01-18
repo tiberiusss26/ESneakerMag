@@ -21,6 +21,7 @@
     </PackageReference>
     <PackageReference Include="AutoMapper" Version="12.0.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="BCrypt.Net-Core" Version="1.6.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -49,6 +50,9 @@
     <None Remove="Services\" />
     <None Remove="Services\UserService\" />
     <None Remove="Helpers\JwtUtils\" />
+    <None Remove="BCrypt.Net-Core" />
+    <None Remove="Helpers\Middleware\" />
+    <None Remove="Helpers\Attributes\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -68,6 +72,8 @@
     <Folder Include="Services\" />
     <Folder Include="Services\UserService\" />
     <Folder Include="Helpers\JwtUtils\" />
+    <Folder Include="Helpers\Middleware\" />
+    <Folder Include="Helpers\Attributes\" />
   </ItemGroup>
     <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->

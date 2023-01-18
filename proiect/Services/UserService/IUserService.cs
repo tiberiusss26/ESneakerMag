@@ -3,7 +3,7 @@ using proiect.Models.DTOs.UserDTO;
 
 namespace proiect.Services.UserService
 {
-	public interface IUserInterface
+	public interface IUserService
 	{
 		UserResponseDTO Authenticate(UserRequestDTO user);
 

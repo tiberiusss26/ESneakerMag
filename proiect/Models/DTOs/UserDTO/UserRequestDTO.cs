@@ -20,7 +20,7 @@ namespace proiect.Models.DTOs.UserDTO
 
 		[Required]	
 
-		public string PasswordHash { get; set; }
+		public string Password { get; set; }
 
 	}
 }

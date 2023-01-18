@@ -1,23 +1,36 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{2D12935A-6D93-427F-B76B-FBBEA02B1C87}|Default">
   <MonoDevelop.Ide.ItemProperties.proiect PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="proiect/Program.cs">
     <Files>
-      <File FileName="proiect/Data/DataBaseContext.cs" Line="1" Column="1" />
-      <File FileName="proiect/Repositories/GenericRepository/IGenericRepository.cs" Line="1" Column="1" />
-      <File FileName="proiect/Repositories/GenericRepository/GenericRepository.cs" Line="1" Column="1" />
-      <File FileName="proiect/Program.cs" Line="31" Column="1" />
+      <File FileName="proiect/Program.cs" Line="5" Column="1" />
+      <File FileName="proiect/Services/UserService/IUserService.cs" />
+      <File FileName="proiect/Services/UserService/UserService.cs" />
+      <File FileName="proiect/Repositories/UserRepository/IUserRepository.cs" />
+      <File FileName="proiect/Repositories/UserRepository/UserRepository.cs" />
+      <File FileName="proiect/appsettings.Development.json" Line="15" Column="4" />
+      <File FileName="proiect/Helpers/AppSettings.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="proiect" expanded="True">
             <Node name="proiect" expanded="True">
-              <Node name="Data" expanded="True" />
-              <Node name="Helpers" expanded="True" />
-              <Node name="Repositories" expanded="True">
-                <Node name="GenericRepository" expanded="True" />
+              <Node name="Helpers" expanded="True">
+                <Node name="JwtUtils" expanded="True" />
+                <Node name="AppSettings.cs" selected="True" />
               </Node>
+              <Node name="Models" expanded="True">
+                <Node name="DTOs" expanded="True">
+                  <Node name="UserDTO" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
@@ -25,9 +38,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

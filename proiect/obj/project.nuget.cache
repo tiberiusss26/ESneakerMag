@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "saP2iWFLIyde/NxLmP7iRB7iGVyqbmhVqNe4iftwnD3wjtPolXHbs8BzdVU76iS5ChSVZ7LXLWN7En/GZr33Ow==",
+  "dgSpecHash": "UQK/e0stlW88rZFOGTKgxdZI0ep9T/fHG9qgqpGQQgoQ6uClU5bbxb086RDaqcB/JX/BnqtKQymst/9fVLcnhA==",
   "success": true,
   "projectFilePath": "/Users/tiberiutitiriga/Desktop/proiectDotnet/proiect/proiect/proiect.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/Users/tiberiutitiriga/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/Users/tiberiutitiriga/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/tiberiutitiriga/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
+    "/Users/tiberiutitiriga/.nuget/packages/bcrypt.net-core/1.6.0/bcrypt.net-core.1.6.0.nupkg.sha512",
     "/Users/tiberiutitiriga/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/tiberiutitiriga/.nuget/packages/messagepack/2.1.152/messagepack.2.1.152.nupkg.sha512",
     "/Users/tiberiutitiriga/.nuget/packages/messagepack.annotations/2.1.152/messagepack.annotations.2.1.152.nupkg.sha512",
