@@ -1,27 +1,39 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{2D12935A-6D93-427F-B76B-FBBEA02B1C87}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="proiect/ClientApp/.gitignore">
+  <MonoDevelop.Ide.ItemProperties.proiect PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="proiect/ClientApp/karma.conf.js">
     <Files>
       <File FileName="proiect/ClientApp/tsconfig.json" />
-      <File FileName="proiect/ClientApp/src/app/app.module.ts" Line="36" Column="29" />
-      <File FileName="proiect/ClientApp/.gitignore" Line="27" Column="1" />
+      <File FileName="proiect/ClientApp/src/app/app.module.ts" />
+      <File FileName="proiect/ClientApp/proxy.conf.js" />
+      <File FileName="proiect/ClientApp/package-lock.json" />
+      <File FileName="proiect/ClientApp/src/main.ts" />
+      <File FileName="proiect/ClientApp/src/test.ts" Line="13" Column="24" />
+      <File FileName="proiect/ClientApp/karma.conf.js" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="proiect" expanded="True">
             <Node name="proiect" expanded="True">
+              <Node name="ClientApp" expanded="True">
+                <Node name="src" expanded="True" />
+                <Node name="package.json" expanded="True" />
+              </Node>
               <Node name="Controllers" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.proiect PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

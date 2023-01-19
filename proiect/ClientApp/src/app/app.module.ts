@@ -14,7 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 //Material
-import { MatCardModule } from '@angular/material/card';
+//import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -33,8 +33,8 @@ import { MatCardModule } from '@angular/material/card';
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
     ]),
-    BrowserAnimationsModule,
-    MatCardModule 
+    BrowserAnimationsModule
+    //MatCardModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
