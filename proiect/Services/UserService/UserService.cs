@@ -1,6 +1,10 @@
 ﻿using System;
+using AutoMapper;
+using NuGet.DependencyResolver;
 using proiect.Helpers.JwtUtils;
+using proiect.Models;
 using proiect.Models.DTOs.UserDTO;
+using proiect.Models.Enums;
 using proiect.Repositories.UserRepository;
 using BCryptNet = BCrypt.Net.BCrypt;
 namespace proiect.Services.UserService
@@ -9,11 +13,13 @@ namespace proiect.Services.UserService
 	{
 		public IUserRepository _userRepository;
 		public IJwtUtils _jwtUtils;
+		public IMapper _mapper;
 
-		public UserService(IUserRepository userRepository, IJwtUtils jwtUtils)
+		public UserService(IUserRepository userRepository, IJwtUtils jwtUtils, IMapper mapper)
 		{
 			_userRepository = userRepository;
 			_jwtUtils = jwtUtils;
+			_mapper = mapper;
 		}
 
 		public UserResponseDTO Authenticate(UserRequestDTO model)
@@ -26,15 +32,19 @@ namespace proiect.Services.UserService
 			var jwtToken = _jwtUtils.GenerateJwtToken(user);
 			return new UserResponseDTO(user, jwtToken);
 		}
+		public async Task Create(UserRequestDTO newUser)
+		{
+			var newDBUser = _mapper.Map<User>(newUser);
+            newDBUser.PasswordHash = BCryptNet.HashPassword(newUser.Password);
+            newDBUser.Role = Role.NewClient;
 
-        public Task Create(UserRequestDTO newUser)
-        {
-            throw new NotImplementedException();
+            await _userRepository.CreateAsync(newDBUser);
+            await _userRepository.SaveAsync();
         }
 
-        public UserRequestDTO GetById(Guid id)
+        public User GetById(Guid id)
         {
-            throw new NotImplementedException();
+			return _userRepository.FindById(id);
         }
     }
 }

@@ -51,6 +51,16 @@ namespace proiect.Repositories.GenericRepository
             _table.RemoveRange(entities);
         }
 
+        public TEntity FindById(object id)
+        {
+            return _table.Find(id);
+        }
+
+        public async Task<TEntity> FindByIdAsync(object id)
+        {
+            return await _table.FindAsync(id);
+        }
+
         public async Task<bool> SaveAsync()
         {
             try

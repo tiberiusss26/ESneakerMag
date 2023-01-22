@@ -1,4 +1,5 @@
 ﻿using System;
+using proiect.Models;
 using proiect.Models.DTOs.UserDTO;
 
 namespace proiect.Services.UserService
@@ -7,7 +8,7 @@ namespace proiect.Services.UserService
 	{
 		UserResponseDTO Authenticate(UserRequestDTO user);
 
-		UserRequestDTO GetById(Guid id);
+		User GetById(Guid id);
 
 		Task  Create(UserRequestDTO newUser);
 	}

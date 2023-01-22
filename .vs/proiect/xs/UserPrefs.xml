@@ -1,36 +1,31 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{2D12935A-6D93-427F-B76B-FBBEA02B1C87}|Default">
-  <MonoDevelop.Ide.ItemProperties.proiect PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="proiect/Program.cs">
+﻿<Properties StartupConfiguration="{2D12935A-6D93-427F-B76B-FBBEA02B1C87}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workbench ActiveDocument="proiect/ClientApp/src/app/pages/admin/admin.module.ts">
     <Files>
-      <File FileName="proiect/Program.cs" Line="5" Column="1" />
-      <File FileName="proiect/Services/UserService/IUserService.cs" />
-      <File FileName="proiect/Services/UserService/UserService.cs" />
-      <File FileName="proiect/Repositories/UserRepository/IUserRepository.cs" />
-      <File FileName="proiect/Repositories/UserRepository/UserRepository.cs" />
-      <File FileName="proiect/appsettings.Development.json" Line="15" Column="4" />
-      <File FileName="proiect/Helpers/AppSettings.cs" Line="1" Column="1" />
+      <File FileName="proiect/ClientApp/src/app/pages/admin/admin.module.ts" Line="5" Column="1" />
+      <File FileName="proiect/ClientApp/src/app/app-routing.module.ts" Line="16" Column="16" />
+      <File FileName="proiect/ClientApp/src/app/pages/admin/admin-routing.module.ts" Line="8" Column="55" />
+      <File FileName="proiect/ClientApp/src/app/pages/auth/auth.module.ts" Line="32" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="proiect" expanded="True">
             <Node name="proiect" expanded="True">
-              <Node name="Helpers" expanded="True">
-                <Node name="JwtUtils" expanded="True" />
-                <Node name="AppSettings.cs" selected="True" />
-              </Node>
-              <Node name="Models" expanded="True">
-                <Node name="DTOs" expanded="True">
-                  <Node name="UserDTO" expanded="True" />
+              <Node name="ClientApp" expanded="True">
+                <Node name="src" expanded="True">
+                  <Node name="app" expanded="True">
+                    <Node name="core" expanded="True">
+                      <Node name="guards" expanded="True" />
+                      <Node name="services" expanded="True" />
+                    </Node>
+                    <Node name="pages" expanded="True">
+                      <Node name="admin" expanded="True" />
+                      <Node name="auth" expanded="True" />
+                    </Node>
+                  </Node>
                 </Node>
               </Node>
-              <Node name="wwwroot" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
@@ -38,4 +33,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.proiect PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

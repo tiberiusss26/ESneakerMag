@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using proiect.Data;
 using proiect.Helpers;
+using proiect.Helpers.Extensions;
 using proiect.Helpers.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +11,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<DataBaseContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+
+builder.Services.AddRepositories();
+builder.Services.AddServices();
+builder.Services.AddUtils();
 
 builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("AppSettings"));
 

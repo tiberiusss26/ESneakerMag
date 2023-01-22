@@ -11,10 +11,9 @@
     "proiect": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7128;http://localhost:5017",
+      "applicationUrl": "http://localhost:48394",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy"
+        "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "IIS Express": {
