@@ -68,6 +68,8 @@
     <None Remove="ClientApp\src\app\shared\meniu\" />
     <None Remove="ClientApp\src\app\core\" />
     <None Remove="ClientApp\src\app\core\services\" />
+    <None Remove="ClientApp\src\app\data\" />
+    <None Remove="ClientApp\src\app\data\interfaces\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -104,6 +106,8 @@
     <Folder Include="ClientApp\src\app\shared\meniu\" />
     <Folder Include="ClientApp\src\app\core\" />
     <Folder Include="ClientApp\src\app\core\services\" />
+    <Folder Include="ClientApp\src\app\data\" />
+    <Folder Include="ClientApp\src\app\data\interfaces\" />
   </ItemGroup>
     <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->
