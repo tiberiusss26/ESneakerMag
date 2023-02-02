@@ -7,6 +7,11 @@ namespace proiect.Repositories.UserRepository
 	public interface IUserRepository: IGenericRepository<User>
     {
 		User FindByUsername(string username);
-	}
+
+		IEnumerable<User> GetAllClientsAsync();
+
+        IEnumerable<User> GetAllAdminsAsync();
+
+    }
 }
 

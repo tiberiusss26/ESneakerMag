@@ -10,7 +10,15 @@ namespace proiect.Services.UserService
 
 		User GetById(Guid id);
 
-		Task  Create(UserRequestDTO newUser);
-	}
+		Task CreateNewClient(UserRequestDTO newUser);
+
+        Task CreateAdmin(UserRequestDTO newUser);
+
+        Task DeleteByUsernameAsync(string username);
+
+		Task<List<User>> GetAllClients();
+
+		Task<List<User>> GetAllAdmins();
+    }
 }
 

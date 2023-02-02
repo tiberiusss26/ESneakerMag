@@ -10,6 +10,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AdminModule } from './pages/admin/admin.module';
 import { AuthModule } from './pages/auth/auth.module';
 
+export function tokenGetter() {
+  console.log(localStorage.getItem('token'))
+  return localStorage.getItem('token');
+}
+
 @NgModule({
   declarations: [
     AppComponent
@@ -22,7 +27,14 @@ import { AuthModule } from './pages/auth/auth.module';
     RouterModule,
     AppRoutingModule,
     AdminModule,
-    AuthModule 
+    AuthModule
+    //,
+    //JwtModule.forRoot({
+    //  config: {
+    //    tokenGetter: tokenGetter,
+    //    allowedDomains: ['localhost:1200', 'localhost:5071', 'localhost:7121', 'localhost:23792', 'localhost:44410', 'https://localhost:44410']
+    //  }
+    //})
   ],
   providers: [],
   bootstrap: [AppComponent]

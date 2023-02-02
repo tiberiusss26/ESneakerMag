@@ -9,6 +9,7 @@ namespace proiect.Models
 		public bool IsConfirmed { get; set; }
 
 		public User? Client { get; set; }
+		public Guid? ClientId { get; set; }
 
 		public ICollection<Purchase> Purchases { get; set; }		
 	}

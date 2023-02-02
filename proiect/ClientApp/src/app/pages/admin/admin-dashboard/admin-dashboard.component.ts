@@ -1,4 +1,4 @@
-import { Component, NgModule } from '@angular/core';
+import { Component, NgModule, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-admin-dashboard',
@@ -6,6 +6,9 @@ import { Component, NgModule } from '@angular/core';
   styleUrls: ['./admin-dashboard.component.css']
 })
 
-export class AdminDashboardComponent {
+export class AdminDashboardComponent implements OnInit {
+  constructor() { }
 
+  ngOnInit(): void {
+  }
 }
