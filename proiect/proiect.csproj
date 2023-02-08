@@ -76,6 +76,8 @@
     <None Remove="Models\DTOs\OrderDTO\" />
     <None Remove="Repositories\OrderRepository\" />
     <None Remove="Services\OrderService\" />
+    <None Remove="ClientApp\src\app\pages\admin\order\" />
+    <None Remove="ClientApp\src\app\pages\admin\orders\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -120,6 +122,8 @@
     <Folder Include="Models\DTOs\OrderDTO\" />
     <Folder Include="Repositories\OrderRepository\" />
     <Folder Include="Services\OrderService\" />
+    <Folder Include="ClientApp\src\app\pages\admin\order\" />
+    <Folder Include="ClientApp\src\app\pages\admin\orders\" />
   </ItemGroup>
     <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->
