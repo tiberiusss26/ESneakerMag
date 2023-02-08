@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UserService } from '../../../core/services/user.service';
+import { User } from '../../../data/interfaces/user';
 
 @Component({
   selector: 'app-users',
@@ -7,12 +8,16 @@ import { UserService } from '../../../core/services/user.service';
   styleUrls: ['./users.component.css']
 })
 export class UsersComponent implements OnInit {
-  public users: any = [];
+  public users: Array<User> = [];
 
   constructor(private readonly userService: UserService) {}
 
   ngOnInit(): void {
-    this.userService.getAllUsers().subscribe(data => this.users = data); 
+    this.userService.getAllUsers().subscribe((data: Array<User>) => this.users = data); 
+  }
+
+  deleteUser(userID: string) {
+    this.userService.deleteUser(userID).subscribe((data: any) => this.users = data);
   }
 
 }

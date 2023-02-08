@@ -14,7 +14,7 @@ export class AuthService {
   constructor(private readonly apiService: ApiService) { }
 
   login(userCredentials: any) {
-    return this.apiService.post<any>(this.route + '/login-user', userCredentials).pipe(
+    return this.apiService.post<any>(this.route + '/login', userCredentials).pipe(
       map((response: any) => {
         if (response) {
           localStorage.setItem('token', response.token);
@@ -24,7 +24,7 @@ export class AuthService {
   }
 
   register(registerInfo: any) {
-    return this.apiService.post<any>(this.route + '/create-user', registerInfo);
+    return this.apiService.post<any>(this.route + '/register', registerInfo);
   }
 
   isLoggedIn() {
