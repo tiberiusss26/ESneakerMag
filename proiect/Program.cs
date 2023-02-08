@@ -59,3 +59,5 @@ void SeedData(IHost app)
         service.seedInitialShoes();
     }
 }
+
+SeedData(app);

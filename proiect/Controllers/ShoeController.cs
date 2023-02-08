@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using proiect.Data;
+using proiect.Helpers.Attributes;
 using proiect.Models.DTOs.ShoeDTO;
+using proiect.Models.Enums;
 using proiect.Services.ShoeService;
 
 namespace proiect.Controllers
@@ -24,6 +26,8 @@ namespace proiect.Controllers
         }
 
 
+        [Authorization(Role.Admin)]
+        [HttpGet("admin")]
         [HttpPost]
         public async Task<ShoeDTO> AddShoe(ShoeDTO shoe)
         {

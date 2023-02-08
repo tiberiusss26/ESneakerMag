@@ -24,7 +24,7 @@ namespace proiect.Helpers.Attributes
 				context.Result = unauthorizedStatudObject;
 			}
 
-			var user = (User)context.HttpContext.Items["User "];
+			var user = (User)context.HttpContext.Items["User"];
 			if(user==null ||!_roles.Contains(user.Role))
 			{
 				context.Result = unauthorizedStatudObject;

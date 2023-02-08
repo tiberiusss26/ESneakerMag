@@ -1,1 +1,15 @@
-<p>login works!</p>
+<div class="signup-container">
+        <mat-card>
+        <form [formGroup]="loginForm">
+            <label>
+                Email:
+                <input type="email" name="email">
+            </label>
+            <br><br>
+            <label>
+                Password:
+                <input type="password" name="password">
+            </label>
+            <br><br>
+            <button mat-raised-button (click)="login()">Login</button>
+        </form>
