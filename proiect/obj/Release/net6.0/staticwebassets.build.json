@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "dQGPMjUPTUmGdbmwUy7vhDdFeODHjQUq9wxP/5VE4UU=",
+  "Source": "proiect",
+  "BasePath": "_content/proiect",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "proiect/wwwroot",
+      "Source": "proiect",
+      "ContentRoot": "/Users/tiberiutitiriga/Desktop/proiectDotnet/proiect/proiect/wwwroot/",
+      "BasePath": "_content/proiect",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/tiberiutitiriga/Desktop/proiectDotnet/proiect/proiect/wwwroot/favicon.ico",
+      "SourceId": "proiect",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/tiberiutitiriga/Desktop/proiectDotnet/proiect/proiect/wwwroot/",
+      "BasePath": "_content/proiect",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.ico"
+    }
+  ]
+}

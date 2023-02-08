@@ -22,7 +22,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatInput, MatInputModule } from '@angular/material/input';
 
 
-
 @NgModule({
   declarations: [AdminDashboardComponent, ShoesComponent, UsersComponent, UserComponent, ShoeComponent],
   imports: [
@@ -37,7 +36,7 @@ import { MatInput, MatInputModule } from '@angular/material/input';
     FormsModule,
     MatInputModule,
     AuthRoutingModule,
-    RouterModule,
+    RouterModule
   ]
 })
 export class AdminModule { }

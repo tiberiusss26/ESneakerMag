@@ -1,6 +1,8 @@
 ﻿using System;
 using proiect.Data;
 using proiect.Helpers.JwtUtils;
+using proiect.Helpers.Seeders;
+using proiect.Repositories.OrderRepository;
 using proiect.Repositories.ShoeRepository;
 using proiect.Repositories.UserRepository;
 using proiect.Services.ShoeService;
@@ -15,6 +17,7 @@ namespace proiect.Helpers.Extensions
 			services.AddTransient<IUserRepository, UserRepository>();
 			services.AddTransient<IUnitOfWork, UnitOfWork>();
 			services.AddTransient<IShoeRepository, ShoeRepository>();
+			services.AddTransient<IOrderRepository, OrderRepository>();
 
 			return services;
 		}
@@ -27,12 +30,12 @@ namespace proiect.Helpers.Extensions
 			return services;
 		}
 
-		//public static IServiceCollection AddSeeders(this IServiceCollection services)
-		//{
-		//    services.AddTransient<StudentsSeeder>();
+		public static IServiceCollection AddSeeders(this IServiceCollection services)
+		{
+			services.AddTransient<ShoesSeeder>();
 
-		//    return services;
-		//}
+			return services;
+		}
 
 		public static IServiceCollection AddUtils(this IServiceCollection services)
 		{

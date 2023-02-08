@@ -1,47 +1,54 @@
-﻿<Properties StartupConfiguration="{2D12935A-6D93-427F-B76B-FBBEA02B1C87}|Default" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workbench ActiveDocument="proiect/Repositories/ShoeRepository/ShoeRepository.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{2D12935A-6D93-427F-B76B-FBBEA02B1C87}|Default">
+  <MonoDevelop.Ide.ItemProperties.proiect PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="proiect/ClientApp/src/app/pages/admin/admin-dashboard/admin-dashboard.component.html">
     <Files>
-      <File FileName="proiect/Models/Shoe.cs" Line="1" Column="1" />
-      <File FileName="proiect/Repositories/ShoeRepository/ShoeRepository.cs" Line="38" Column="38" />
-      <File FileName="proiect/Repositories/UserRepository/IUserRepository.cs" Line="1" Column="1" />
-      <File FileName="proiect/Repositories/UserRepository/UserRepository.cs" Line="1" Column="1" />
-      <File FileName="proiect/Repositories/ShoeRepository/IShoeRepository.cs" Line="10" Column="32" NotebookId="1" />
+      <File FileName="proiect/Models/Order.cs" />
+      <File FileName="proiect/Repositories/OrderRepository/OrderRepository.cs" Line="1" Column="1" />
+      <File FileName="proiect/Services/OrderService/OrderService.cs" />
+      <File FileName="proiect/Controllers/OrderController.cs" Line="15" Column="6" />
+      <File FileName="proiect/ClientApp/proxy.conf.js" Line="1" Column="1" />
+      <File FileName="proiect/ClientApp/src/app/app-routing.module.ts" Line="1" Column="1" />
+      <File FileName="proiect/ClientApp/src/app/app.module.ts" Line="10" Column="1" />
+      <File FileName="proiect/ClientApp/src/app/app.server.module.ts" Line="1" Column="1" />
+      <File FileName="proiect/ClientApp/src/app/app.component.ts" Line="1" Column="1" />
+      <File FileName="proiect/ClientApp/src/app/app.component.html" Line="1" Column="1" />
+      <File FileName="proiect/ClientApp/src/app/pages/admin/admin-routing.module.ts" Line="1" Column="1" />
+      <File FileName="proiect/ClientApp/src/app/pages/admin/admin-dashboard/admin-dashboard.component.ts" Line="1" Column="1" />
+      <File FileName="proiect/ClientApp/src/app/pages/admin/admin-dashboard/admin-dashboard.component.html" Line="2" Column="30" />
+      <File FileName="proiect/ClientApp/src/app/pages/admin/admin.module.ts" Line="39" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="proiect" expanded="True">
             <Node name="proiect" expanded="True">
+              <Node name="ClientApp" expanded="True">
+                <Node name="src" expanded="True">
+                  <Node name="app" expanded="True">
+                    <Node name="pages" expanded="True">
+                      <Node name="admin" expanded="True">
+                        <Node name="admin-dashboard" expanded="True" />
+                        <Node name="admin.module.ts" selected="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="DTOs" expanded="True">
-                  <Node name="UserDTO" expanded="True" />
-                </Node>
-                <Node name="Enums" expanded="True" />
-              </Node>
               <Node name="Repositories" expanded="True">
-                <Node name="GenericRepository" expanded="True">
-                  <Node name="GenericRepository.cs" selected="True" />
-                </Node>
+                <Node name="OrderRepository" expanded="True" />
                 <Node name="ShoeRepository" expanded="True" />
-                <Node name="UserRepository" expanded="True" />
               </Node>
-              <Node name="Services" expanded="True">
-                <Node name="UserService" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.proiect PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
 </Properties>

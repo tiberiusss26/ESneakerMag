@@ -3,6 +3,7 @@ using proiect.Data;
 using proiect.Helpers;
 using proiect.Helpers.Extensions;
 using proiect.Helpers.Middleware;
+using proiect.Helpers.Seeders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,7 @@ builder.Services.AddDbContext<DataBaseContext>(options => options.UseSqlServer(b
 
 builder.Services.AddRepositories();
 builder.Services.AddServices();
+builder.Services.AddSeeders();
 builder.Services.AddUtils();
 
 builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("AppSettings"));
@@ -48,4 +50,12 @@ app.MapFallbackToFile("index.html");
 
 app.Run();
 
-
+void SeedData(IHost app)
+{
+    var scopedFactory = app.Services.GetService<IServiceScopeFactory>();
+    using (var scope = scopedFactory.CreateScope())
+    {
+        var service = scope.ServiceProvider.GetService<ShoesSeeder>();
+        service.seedInitialShoes();
+    }
+}

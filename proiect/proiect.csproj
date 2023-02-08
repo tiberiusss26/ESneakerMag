@@ -74,6 +74,8 @@
     <None Remove="Services\ShoeService\" />
     <None Remove="Models\DTOs\ShoeDTO\" />
     <None Remove="Models\DTOs\OrderDTO\" />
+    <None Remove="Repositories\OrderRepository\" />
+    <None Remove="Services\OrderService\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -116,6 +118,8 @@
     <Folder Include="Services\ShoeService\" />
     <Folder Include="Models\DTOs\ShoeDTO\" />
     <Folder Include="Models\DTOs\OrderDTO\" />
+    <Folder Include="Repositories\OrderRepository\" />
+    <Folder Include="Services\OrderService\" />
   </ItemGroup>
     <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->
